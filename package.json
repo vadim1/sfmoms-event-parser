@@ -1,0 +1,17 @@
+{
+  "name": "sfmoms-event-parser",
+  "version": "1.0.0",
+  "description": "Parse events from emails and generate SF Moms form fill scripts",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "nodemailer": "^6.9.7"
+  }
+}
